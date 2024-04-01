@@ -22,7 +22,7 @@ The description tells us that the cat is in the users home directory, the user i
 
 Fortunately for us there is a folder in the root of a linux system called "etc", in it there are important system-wide configuration files but for this case only one file is of interest to us and that is the passwd file, it stores user login information and if we could get a hold of its contents we would have everything we need to get to the flag.</br>
 
-But oh no! Were not usually supposed to have access to this important file containing secret information, whatever will we do! Let's get to work. </br></br>
+But oh no! We're not usually supposed to have access to this important file containing secret information, whatever will we do! Let's get to work. </br></br>
 
 <h2>The Exploit</h2></br>
 
