@@ -37,7 +37,7 @@ But we can't upload the file like this, since the website will only accept zippe
 
 <img src="Images/linux/zipPswd.PNG" alt="zip -y passwd.zip passwd" width="220"/> </br>
 
-The -y option tells zip to store the Symlink as a Symlink instead of following it and storing the content it leads to then we specify a name for the zipped file and which file we want to be zipped in this case passwd. </br>
+The -y option tells zip to store the Symlink as a Symlink instead of following it and storing the content it leads to. Then we specify a name for the zipped file and which file we want to be zipped in this case passwd. </br>
 Now all we need to do is upload it to the website and see what it returns to us. </br>
 
 <img src="Images/website/etcPwdContent.PNG" alt="/etc/passwd contents" width="500"/> </br>
