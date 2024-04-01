@@ -4,9 +4,9 @@ To get started let's first take a look at the challenge description to see if th
 
 <img src="Images/website/Challenge.PNG" alt="Challenge description" width="300"/>
 
-Other than a digital cat being stuck in a server theres one interesting detail that stands out in this description. It mentions that he is likely in the home directory of the server and we'd supposedly know hes fine if we could just locate the flag.txt file, which is what were looking for anyway, what a neat coincidence! </br>
+Other than a digital cat being stuck in a server, theres one interesting detail that stands out in this description. It mentions that he is likely in the home directory of the server, and we'd supposedly know he's fine if we could just locate the flag.txt file, which is what were looking for anyway. What a neat coincidence! </br>
 
-Obviously we want nothing to happen to the cat either so let's be the hero they need and save him.
+Obviously we want nothing to happen to the cat either, so let's be the hero they need and save him.
 
 <img src="Images/website/WebsiteHomescreen.png" alt="Website Homescreen" width="600"/>
 
