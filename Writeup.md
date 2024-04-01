@@ -42,7 +42,7 @@ Now all we need to do is upload it to the website and see what it returns to us.
 
 <img src="Images/website/etcPwdContent.PNG" alt="/etc/passwd contents" width="500"/> </br>
 
-Awesome! Among these users there is one that stands out in particular since it's not by default part of a linux machine, looks like we've found our username.</br>
+Awesome! Among these users there is one that stands out in particular since it's not by default part of a linux machine, "copenhagen", looks like we've found our username.</br>
 So now let's move on to the flag itself.</br>
 
 <img src="Images/linux/symlinkToCopenhagen.PNG" alt="ln -s /home/copenhagen/flag.txt saveJosh" width="350"/> </br>
