@@ -26,14 +26,14 @@ But oh no! We're not usually supposed to have access to this important file cont
 
 <h2>The Exploit</h2></br>
 
-First up let's open a terminal window and move into the Desktop directory with the command "cd Desktop" so that all the files we create will be easily accessible on the desktop. </br>
+First up, let's open a terminal window and move into the Desktop directory with the command "cd Desktop", so that all the files we create will be easily accessible on the desktop. </br>
 
-Now lets create our first Symlink. We've already established that in order to find the username we need to access the file located at /etc/passwd so lets craft a Symlink file that leads exactly there with the following command: </br>
+Now lets create our first Symlink. We've already established, that in order to find the username we need to access the file located at /etc/passwd, so lets craft a Symlink file that leads exactly there with the following command: </br>
 
 <img src="Images/linux/etcPwdSymlink.PNG" alt="ln -s /etc/passwd" width="220"/> </br>
 
 ln meaning "create link" and the -s option signifying that we're trying to create a Symlink and not a hard link, make sure not to forget it. </br>
-But we can't upload the file like this, since the website will only accept zipped files we need to zip it like so: </br>
+But we can't upload the file like this, since the website will only accept zipped files, we need to zip it like so: </br>
 
 <img src="Images/linux/zipPswd.PNG" alt="zip -y passwd.zip passwd" width="220"/> </br>
 
@@ -47,7 +47,7 @@ So now let's move on to the flag itself.</br>
 
 <img src="Images/linux/symlinkToCopenhagen.PNG" alt="ln -s /home/copenhagen/flag.txt saveJosh" width="350"/> </br>
 
-Just like before we create a Symlink except this time it leads to /home/copenhagen/flag.txt and again we need to zip it so we can upload it to the website. </br>
+Just like before we create a Symlink, except this time it leads to /home/copenhagen/flag.txt and again we need to zip it so we can upload it to the website. </br>
 
 <img src="Images/linux/zipSaveJosh.PNG" alt="zip -y saveJosh.zip saveJosh" width="250"/> </br>
 
